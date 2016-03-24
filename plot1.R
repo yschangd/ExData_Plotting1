@@ -1,7 +1,3 @@
-setwd("D:/yschangd/MyDocuments/Work_EBO/MDID/52. DataScientist/trainingPath/04_Exploratory Data Analysis/week1/programming/git_lesson4_week1")
-## transfer languate to English
-Sys.setlocale(category = "LC_ALL", locale = "english")
-
 con <- file("./household_power_consumption.txt","r")
 data <- read.table(con, header = TRUE, sep = ";", na.strings = "?", stringsAsFactor = F) 
 close(con)
